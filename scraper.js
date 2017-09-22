@@ -8,7 +8,10 @@ scrapeIt ("https://www.gutenberg.org/ebooks/search/?start_index=51&sort_order=do
         listItem: ".booklink"
       , data: {
             // Get the title
-          title: ".title"
+          title: ".title",
+          auther: ".subtitle",
+          dowlands :".extra"
+        
         }
     }
 
